@@ -1,10 +1,7 @@
-from asyncio.windows_events import NULL
-from os import getlogin
 import click
 import boto3
 import logging
 import logging.handlers
-import sys
 from tabulate import tabulate
 
 fields_translation = {
